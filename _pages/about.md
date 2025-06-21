@@ -2,7 +2,13 @@
 layout: about
 title: Profile
 permalink: /
-subtitle: AI PhD Researcher, Oxford | <a href=\"mailto:smanchingal@brookes.ac.uk\"><i class=\"fas fa-envelope\"></i></a>, <a href=\"https://www.linkedin.com/in/shireenkudukkil/\" target=\"_blank\" rel=\"noopener\"><i class=\"fab fa-linkedin\"></i></a>, <a href=\"https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ\" target=\"_blank\" rel=\"noopener\"><i class=\"ai ai-google-scholar\"></i></a>, <a href=\"https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal\" target=\"_blank\" rel=\"noopener\"><i class=\"ai ai-researchgate\"></i></a>, <a href=\"https://github.com/shireenkmanch\" target=\"_blank\" rel=\"noopener\"><i class=\"fab fa-github\"></i></a>
+subtitle: >
+  AI PhD Researcher, Oxford | 
+  <a href="mailto:smanchingal@brookes.ac.uk"><i class="fas fa-envelope"></i></a>, 
+  <a href="https://www.linkedin.com/in/shireenkudukkil/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>, 
+  <a href="https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>, 
+  <a href="https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i></a>, 
+  <a href="https://github.com/shireenkmanch" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
 
 profile:
   align: right

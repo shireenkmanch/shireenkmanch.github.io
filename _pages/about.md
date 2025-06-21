@@ -2,7 +2,7 @@
 layout: about
 title: Profile
 permalink: /
-subtitle: AI PhD Researcher, Oxford | <a href="mailto:smanchingal@brookes.ac.uk"><i class="ai ai-mail"></i> Email</a> <a href="https://www.linkedin.com/in/shireenkudukkil/" target="_blank" rel="noopener"><i class="ai ai-linkedin"></i> LinkedIn</a> <a href="https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a> <a href="https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i> ResearchGate</a> <a href="https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1" target="_blank" rel="noopener"><i class="ai ai-openreview"></i> OpenReview</a> <a href="https://github.com/shireenkmanch" target="_blank" rel="noopener"><i class="ai ai-github"></i> GitHub</a>
+subtitle: AI PhD Researcher, Oxford | <a href="mailto:smanchingal@brookes.ac.uk"><i class="ai ai-mail"></i> Email</a> <a href="https://www.linkedin.com/in/shireenkudukkil/" target="_blank" rel="noopener"><i class="ai ai-linkedin"></i> LinkedIn</a> <a href="https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a> <a href="https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i> ResearchGate</a> <a href="https://github.com/shireenkmanch" target="_blank" rel="noopener"><i class="ai ai-github"></i> GitHub</a>
 
 # subtitle: AI PhD Researcher, Oxford <a href='mailto:smanchingal@brookes.ac.uk'>Email</a>, <a href='https://www.linkedin.com/in/shireenkudukkil/'>LinkedIn</a>, <a href='https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ'>Google Scholar</a>, <a href='https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal'>ResearchGate</a>, <a href='https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1'>OpenReview</a>
 # <a href='#'>Postdoctoral Research Fellow, Oxford Brookes University</a>. 
@@ -43,7 +43,7 @@ My recent publications at ICLR 2025, AISTATS 2025, and NeurIPS 2024 focus on dev
 If you're building AI is robust and trustworthy, exploring the edges of creativity and cognition, or just want to talk art, uncertainty, or robots — drop me a line.
 
 📬 smanchingal@brookes.ac.uk
-🔗 [LinkedIn](https://www.linkedin.com/in/shireenkudukkil/) | [GitHub](https://github.com/shireenkmanch/) | [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ) | [ResearchGate](https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal) | [OpenReview](https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1)
+🔗 [LinkedIn](https://www.linkedin.com/in/shireenkudukkil/) | [GitHub](https://github.com/shireenkmanch/) | [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ) | [ResearchGate](https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal)
 
 
 

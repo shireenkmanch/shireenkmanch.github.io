@@ -4,17 +4,12 @@ title: Profile
 permalink: /
 subtitle: AI PhD Researcher, Oxford | <a href="mailto:smanchingal@brookes.ac.uk"><i class="fas fa-envelope"></i></a> <a href="https://www.linkedin.com/in/shireenkudukkil/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a> <a href="https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a> <a href="https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i></a> <a href="https://github.com/shireenkmanch" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
 
-# subtitle: AI PhD Researcher, Oxford <a href='mailto:smanchingal@brookes.ac.uk'>Email</a>, <a href='https://www.linkedin.com/in/shireenkudukkil/'>LinkedIn</a>, <a href='https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ'>Google Scholar</a>, <a href='https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal'>ResearchGate</a>, <a href='https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1'>OpenReview</a>
-# <a href='#'>Postdoctoral Research Fellow, Oxford Brookes University</a>. 
-
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Oxford, United Kingdom</p>
-#<p>123 your address street</p>
-#<p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -46,9 +41,3 @@ If you're building AI is robust and trustworthy, exploring the edges of creativi
 
 📬 smanchingal@brookes.ac.uk
 🔗 [LinkedIn](https://www.linkedin.com/in/shireenkudukkil/) | [GitHub](https://github.com/shireenkmanch/) | [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ) | [ResearchGate](https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal) | [OpenReview](https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1)
-
-
-
-<!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
-
-<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->

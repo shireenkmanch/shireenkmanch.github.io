@@ -2,7 +2,7 @@
 layout: about
 title: Profile
 permalink: /
-subtitle: <a href=\"mailto:smanchingal@brookes.ac.uk\"><i class=\"fas fa-envelope\"></i></a>
+subtitle: <a href=\"https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ\" target=\"_blank\" rel=\"noopener\"><i class=\"ai ai-google-scholar\"></i></a>, <a href=\"https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal\" target=\"_blank\" rel=\"noopener\"><i class=\"ai ai-researchgate\"></i></a>
 
 profile:
   align: right

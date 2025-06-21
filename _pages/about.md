@@ -2,13 +2,7 @@
 layout: about
 title: Profile
 permalink: /
-subtitle: AI PhD Researcher, Oxford <br>
-<a href="mailto:smanchingal@brookes.ac.uk"><i class="ai ai-mail"></i> Email</a> | 
-<a href="https://www.linkedin.com/in/shireenkudukkil/" target="_blank" rel="noopener"><i class="ai ai-linkedin"></i> LinkedIn</a> | 
-<a href="https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a> | 
-<a href="https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i> ResearchGate</a> | 
-<a href="https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1" target="_blank" rel="noopener"><i class="ai ai-openreview"></i> OpenReview</a> | 
-<a href="https://github.com/shireenkmanch" target="_blank" rel="noopener"><i class="ai ai-github"></i> GitHub</a>
+subtitle: AI PhD Researcher, Oxford | <a href="mailto:smanchingal@brookes.ac.uk"><i class="ai ai-mail"></i> Email</a> <a href="https://www.linkedin.com/in/shireenkudukkil/" target="_blank" rel="noopener"><i class="ai ai-linkedin"></i> LinkedIn</a> <a href="https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a> <a href="https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i> ResearchGate</a> <a href="https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1" target="_blank" rel="noopener"><i class="ai ai-openreview"></i> OpenReview</a> <a href="https://github.com/shireenkmanch" target="_blank" rel="noopener"><i class="ai ai-github"></i> GitHub</a>
 
 # subtitle: AI PhD Researcher, Oxford <a href='mailto:smanchingal@brookes.ac.uk'>Email</a>, <a href='https://www.linkedin.com/in/shireenkudukkil/'>LinkedIn</a>, <a href='https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ'>Google Scholar</a>, <a href='https://www.researchgate.net/profile/Shireen-Kudukkil-Manchingal'>ResearchGate</a>, <a href='https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1'>OpenReview</a>
 # <a href='#'>Postdoctoral Research Fellow, Oxford Brookes University</a>. 

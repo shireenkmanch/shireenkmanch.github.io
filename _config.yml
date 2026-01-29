@@ -153,6 +153,6 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true
+  enabled: false
 
 lazy_loading_images: true

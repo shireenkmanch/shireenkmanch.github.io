@@ -156,3 +156,11 @@ imagemagick:
   enabled: false
 
 lazy_loading_images: true
+
+# -----------------------------------------------------------------------------
+# Minification (allow ES6 in JS assets)
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  uglifier_args:
+    harmony: true

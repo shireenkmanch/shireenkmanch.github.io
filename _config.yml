@@ -40,7 +40,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: false
-search_enabled: true
+search_enabled: false
 bib_search: true
 
 max_width: 980px   # slightly wider = more breathing room for text
@@ -86,7 +86,7 @@ giscus:
 
 collections:
   projects:
-    output: true
+    output: false
   news:
     output: true
     defaults:
@@ -130,7 +130,7 @@ enable_publication_thumbnails: true
 # -----------------------------------------------------------------------------
 
 enable_math: true
-enable_darkmode: true
+enable_darkmode: false
 enable_medium_zoom: true
 enable_progressbar: true
 enable_navbar_social: false

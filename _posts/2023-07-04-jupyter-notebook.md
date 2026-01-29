@@ -1,13 +1,4 @@
----
-layout: post
-title: a post with jupyter notebook
-date: 2023-07-04 08:57:00-0400
-description: an example of a blog post with jupyter notebook
-tags: formatting jupyter
-categories: sample-posts
-giscus_comments: true
-related_posts: false
----
+ "---`r`n$($args[0].Groups[1].Value)`r`npublished: false`r`n---" 
 
 To include a jupyter notebook in a post, you can use the following code:
 
@@ -43,3 +34,4 @@ The plugin takes as input the path to the notebook, but it assumes the file exis
 {:/nomarkdown}
 
 Note that the jupyter notebook supports both light and dark themes.
+

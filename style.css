@@ -40,25 +40,35 @@ h1 {
     letter-spacing: -0.01em;
 }
 h2.tagline {
-    font-weight: normal;
-    font-style: italic;
-    color: #888;
-    font-size: 17px;
+    font-weight: 500;
+    color: #4a4a4a;
+    font-size: 18px;
     padding: 0;
+    margin: 0 0 6px 0;
+}
+h2.tagline em {
+    color: #c47b2a;
+    font-style: italic;
+}
+.role {
+    color: #888;
+    font-size: 15px;
     margin: 0 0 14px 0;
 }
 .links {
-    font-size: 15px;
-    color: #666;
+    font-size: 22px;
 }
 .links a {
-    color: #555;
+    color: #6a6a6a;
     text-decoration: none;
     margin-right: 14px;
+    transition: color 0.15s ease, transform 0.15s ease;
+    display: inline-block;
 }
 .links a:hover {
-    color: #2a2a2a;
-    text-decoration: underline;
+    color: #c47b2a;
+    text-decoration: none;
+    transform: translateY(-2px);
 }
 @media (max-width: 700px) {
     #dhead .row {

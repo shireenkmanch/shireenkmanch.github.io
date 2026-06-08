@@ -33,7 +33,7 @@ body {
     object-fit: cover;
     object-position: center 15%;
     display: block;
-    box-shadow: 0 0 0 3px #ffffff, 0 0 0 6px #6b46c1;
+    border: 7px solid #6b46c1;
 }
 h1 {
     font-size: 30px;

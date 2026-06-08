@@ -29,6 +29,7 @@ body {
     height: 200px;
     border-radius: 100px;
     object-fit: cover;
+    object-position: center 15%;
     display: block;
 }
 h1 {
@@ -69,6 +70,7 @@ h2.tagline {
         width: 160px;
         height: 160px;
         border-radius: 80px;
+        object-position: center 15%;
     }
 }
 

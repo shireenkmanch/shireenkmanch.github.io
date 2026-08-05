@@ -32,6 +32,7 @@ window.PAPERS = [
         authors: ["*Shireen Kudukkil Manchingal", "Armand Amaritei", "Mihir Gohad", "Maryam Sultana", "Julian F. P. Kooij", "Fabio Cuzzolin", "Andrew Bradley"],
         venue: "IEEE International Conference on Robotics and Automation (ICRA), 2026",
         tag: "ICRA 26",
+        fig: "assets/img/papers/icra-av.png",
         links: { arXiv: "https://arxiv.org/abs/2510.22680" }
     },
     {
@@ -91,6 +92,7 @@ window.PAPERS = [
         authors: ["Maryam Sultana", "Neil Yorke-Smith", "Kaizheng Wang", "*Shireen Kudukkil Manchingal", "Muhammad Mubashar", "Fabio Cuzzolin"],
         venue: "arXiv preprint, 2025",
         tag: "arXiv",
+        fig: "assets/img/papers/epistemic-wrapping.png",
         links: { arXiv: "https://arxiv.org/abs/2505.02277" }
     },
     {
@@ -99,6 +101,7 @@ window.PAPERS = [
         authors: ["Muhammad Mubashar", "*Shireen Kudukkil Manchingal", "Fabio Cuzzolin"],
         venue: "arXiv preprint, 2025",
         tag: "arXiv",
+        fig: "assets/img/papers/random-set-llm.png",
         links: { pdf: "https://arxiv.org/pdf/2504.18085", arXiv: "https://arxiv.org/abs/2504.18085", code: "https://github.com/mubashar1030/Random-set-Large-Language-Models" }
     },
     {
@@ -107,6 +110,7 @@ window.PAPERS = [
         authors: ["*Shireen Kudukkil Manchingal", "Muhammad Mubashar", "Kaizheng Wang", "Fabio Cuzzolin"],
         venue: "International Conference on Artificial Intelligence and Statistics (AISTATS), 2025",
         tag: "AISTATS 25",
+        fig: "assets/img/papers/eval-framework.png",
         links: { pdf: "https://proceedings.mlr.press/v258/manchingal25a/manchingal25a.pdf", PMLR: "https://proceedings.mlr.press/v258/manchingal25a.html", code: "https://github.com/shireenkmanch/Evaluation-Epistemic-Preds" }
     },
     {
@@ -124,6 +128,7 @@ window.PAPERS = [
         authors: ["Kaizheng Wang", "Keivan Shariatmadar", "*Shireen Kudukkil Manchingal", "Fabio Cuzzolin", "David Moens", "Hans Hallez"],
         venue: "Neural Networks (Elsevier), 2025",
         tag: "Neural Netw.",
+        fig: "assets/img/papers/creinns.png",
         links: { DOI: "https://doi.org/10.1016/j.neunet.2025.107198", code: "https://github.com/WangKaizheng/CreINNs" }
     },
     {
@@ -141,6 +146,7 @@ window.PAPERS = [
         authors: ["*Shireen Kudukkil Manchingal", "Fabio Cuzzolin"],
         venue: "ICML 2022 Workshop on Distribution-free Uncertainty Quantification",
         tag: "ICML-W 22",
+        fig: "assets/img/papers/epistemic-dl.png",
         links: { arXiv: "https://arxiv.org/abs/2206.07609" }
     }
 ];

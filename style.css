@@ -297,7 +297,7 @@ footer {
     padding: 10px 20px;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 16px;
 }
 .nav-name {

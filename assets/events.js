@@ -9,7 +9,7 @@
      4. Add an entry below. Only `title`, `date` and `kind` are required.
         List the extra photos in `photos` to make them appear in the lightbox.
 
-   `kind` must be one of: organised | talk | conference | outreach
+   `kind` must be one of: organised | conference | talk | research | milestone | outreach
    (these drive the filter buttons).
 
    If `dir` is omitted or the cover file does not exist, the card renders as a
@@ -26,7 +26,7 @@ window.EVENTS = [
         location: "London, UK",
         date: "2026",
         dir: "2026-royal-academy-of-engineering",
-        photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg"]
+        photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg"]
     },
     {
         title: "OxAI event",
@@ -36,7 +36,7 @@ window.EVENTS = [
         location: "Oxford, UK",
         date: "2026",
         dir: "2026-oxai-event",
-        photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg"]
+        photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"]
     },
     {
         title: "Research visit to MBZUAI",
@@ -57,7 +57,7 @@ window.EVENTS = [
         location: "London, UK",
         date: "2026",
         dir: "2026-ati-ai-for-science-royal-society",
-        photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg", "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg", "23.jpg", "24.jpg", "25.jpg", "26.jpg", "27.jpg", "28.jpg", "29.jpg", "30.jpg", "31.jpg", "32.jpg", "33.jpg", "34.jpg"]
+        photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"]
     },
     {
         title: "Alan Turing Institute tutorial",
@@ -79,7 +79,7 @@ window.EVENTS = [
         date: "Jul 2026",
         link: "https://icml.cc/virtual/2026/workshop/54075",
         dir: "2026-07-eiml2-icml-seoul",
-        photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg"]
+        photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"]
     },
     {
         title: "AISTATS 2026",
@@ -95,7 +95,7 @@ window.EVENTS = [
         title: "Joined Oxford Dynamics",
         subtitle: "Harwell Science and Innovation Campus",
         role: "Research Scientist",
-        kind: "outreach",
+        kind: "milestone",
         venue: "Oxford Dynamics",
         location: "Harwell, UK",
         date: "Mar 2026",
@@ -105,7 +105,7 @@ window.EVENTS = [
     {
         title: "ROAD-Intent data collection",
         role: "Led the collection",
-        kind: "outreach",
+        kind: "research",
         venue: "RACE, UKAEA",
         location: "Culham, UK",
         date: "2025",
@@ -115,7 +115,7 @@ window.EVENTS = [
     {
         title: "PhD graduation",
         role: "Graduand",
-        kind: "outreach",
+        kind: "milestone",
         venue: "Oxford Brookes University",
         location: "Oxford, UK",
         date: "2025",
@@ -126,7 +126,7 @@ window.EVENTS = [
         title: "PhD viva",
         subtitle: "Epistemic Deep Learning: Enabling Machine Learning Models to Know When They Do Not Know",
         role: "Candidate",
-        kind: "outreach",
+        kind: "milestone",
         venue: "Oxford Brookes University",
         location: "Oxford, UK",
         date: "2025",

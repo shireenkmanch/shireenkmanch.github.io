@@ -4,14 +4,14 @@
    To add a paper: copy an entry below. Newest first.
 
    To show a figure under a paper:
-     1. Export the paper's main figure as PNG (in Overleaf: right-click the
-        figure PDF > Download, then export to PNG; or screenshot it from the
-        arXiv page at high zoom).
-     2. Save it as  assets/img/papers/<something>.png  — around 1000px wide.
+     1. Export the paper's main figure as PNG. From arXiv:
+        curl -sL -o p.pdf https://arxiv.org/pdf/<id> then
+        magick -density 200 "p.pdf[1]" -trim fig.png.
+     2. Save it as  assets/img/papers/<something>.png  - around 1000px wide.
      3. Set  fig: "assets/img/papers/<something>.png"  on the entry.
 
-   With no `fig`, the card shows a typographic tile with the venue on it, so
-   the layout stays intact.
+   With no `fig`, the card shows a tile with the venue on it, so the layout
+   stays intact.
 
    `tag` is the short venue badge shown on the tile and next to the title.
 --------------------------------------------------------------------------- */
@@ -24,7 +24,6 @@ window.PAPERS = [
         venue: "arXiv preprint, 2026",
         tag: "arXiv",
         fig: "assets/img/papers/distributional-ebm.png",
-        figCaption: "Chain-of-thought scored per step misses global errors; an energy verifier scores whole candidate answers instead.",
         links: { arXiv: "https://arxiv.org/abs/2605.18871" }
     },
     {
@@ -42,7 +41,6 @@ window.PAPERS = [
         venue: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), 2026",
         tag: "ECML 26",
         fig: "assets/img/papers/jailbreak-entropy.png",
-        figCaption: "Safe and jailbreak prompts have comparable entropy levels, but opposite entropy trends across token positions.",
         links: { arXiv: "https://arxiv.org/abs/2606.25182", code: "https://github.com/ssophiee/entropy-jailbreak-detection" }
     },
     {
@@ -52,7 +50,6 @@ window.PAPERS = [
         venue: "arXiv preprint, 2026",
         tag: "arXiv",
         fig: "assets/img/papers/random-set-gnn.png",
-        figCaption: "A softmax GNN must commit all mass on the simplex; a belief head spreads mass over focal sets, widening the credal set on novel inputs.",
         links: { arXiv: "https://arxiv.org/abs/2605.11987" }
     },
     {
@@ -86,7 +83,6 @@ window.PAPERS = [
         venue: "Position paper, arXiv preprint, 2025",
         tag: "Position",
         fig: "assets/img/papers/position-epistemic-ai.png",
-        figCaption: "Epistemic learning returns a set of models, and so a set of predictions, rather than a single distribution.",
         links: { arXiv: "https://arxiv.org/abs/2505.04950" }
     },
     {
@@ -119,6 +115,7 @@ window.PAPERS = [
         authors: ["*Shireen Kudukkil Manchingal", "Muhammad Mubashar", "Kaizheng Wang", "Keivan Shariatmadar", "Fabio Cuzzolin"],
         venue: "International Conference on Learning Representations (ICLR), 2025",
         tag: "ICLR 25",
+        fig: "assets/img/papers/rs-nn.png",
         links: { pdf: "https://openreview.net/pdf?id=pdjkikvCch", openreview: "https://openreview.net/forum?id=pdjkikvCch", code: "https://github.com/shireenkmanch/Random-Set-Neural-Networks" }
     },
     {
@@ -135,6 +132,7 @@ window.PAPERS = [
         authors: ["Kaizheng Wang", "Fabio Cuzzolin", "*Shireen Kudukkil Manchingal", "Keivan Shariatmadar", "David Moens", "Hans Hallez"],
         venue: "Conference on Neural Information Processing Systems (NeurIPS), 2024",
         tag: "NeurIPS 24",
+        fig: "assets/img/papers/credal-ensembles.png",
         links: { pdf: "https://papers.nips.cc/paper_files/paper/2024/file/911fc798523e7d4c2e9587129fcf88fc-Paper-Conference.pdf", NeurIPS: "https://papers.nips.cc/paper_files/paper/2024/hash/911fc798523e7d4c2e9587129fcf88fc-Abstract-Conference.html" }
     },
     {

@@ -17,6 +17,20 @@
 </head>
 <body>
 
+<nav id="topnav">
+    <div class="nav-inner">
+        <a class="nav-name" href="#top">SKM</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#news">News</a>
+            <a href="#publications">Publications</a>
+            <a href="#events">Events</a>
+        </div>
+    </div>
+</nav>
+
+<span id="top"></span>
+
 <div id="dhead" class="container">
     <div class="row">
         <div id="dpic">
@@ -28,7 +42,7 @@
             <p class="role">Researcher, Oxford Dynamics &middot; Oxford, UK</p>
             <div class="links">
                 <a href="mailto:shireen.manchingal@oxdynamics.com" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-                <a href="https://scholar.google.com/scholar?q=Shireen+Kudukkil+Manchingal" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                <a href="https://scholar.google.com/citations?user=HecEIboAAAAJ" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
                 <a href="https://github.com/shireenkmanch" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/shireenkudukkil/" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1" title="OpenReview" aria-label="OpenReview" class="or-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><text x="12" y="17" text-anchor="middle" font-size="12" font-family="-apple-system, Helvetica, Arial, sans-serif" font-weight="700">OR</text></svg></a>
@@ -40,7 +54,7 @@
 
 <hr>
 
-<div class="container bio">
+<div class="container bio" id="about">
     <p>I am a machine learning researcher working on <strong>epistemic uncertainty in modern AI systems</strong>: models that quantify what they do not know and act accordingly.</p>
 
     <p>I lead research at <a href="https://www.oxdynamics.com/">Oxford Dynamics</a> on <strong>reasoning in foundation models</strong> and <strong>decision-making under uncertainty</strong>. The work targets mission-critical, high-complexity environments, including defence, autonomy, and safety-critical decisioning, where models cannot afford to be confidently wrong, and where knowing when to defer, abstain, or escalate is as important as producing an answer.</p>
@@ -54,139 +68,229 @@
     <p><strong>Contact:</strong> <a href="mailto:shireen.manchingal@oxdynamics.com">shireen.manchingal@oxdynamics.com</a>.</p>
 </div>
 
-<div class="container">
+<div class="container" id="news">
     <div class="ctitle">News</div>
     <ul class="news">
-        <li>
-            <span class="date">Dec 2025</span>
-            <span class="text">New preprint with Michele Caprio and Fabio Cuzzolin, <em>Credal and Interval Deep Evidential Classifications</em> (<a href="https://arxiv.org/abs/2512.05526">arXiv:2512.05526</a>).</span>
-        </li>
-        <li>
-            <span class="date">Oct 2025</span>
-            <span class="text"><em>Uncertainty-Aware Autonomous Vehicles: Predicting the Road Ahead</em> accepted to <strong>ICRA 2026</strong> (<a href="https://arxiv.org/abs/2510.22680">arXiv:2510.22680</a>).</span>
-        </li>
-        <li>
-            <span class="date">Oct 2025</span>
-            <span class="text">My PhD thesis, <em>Epistemic Deep Learning: Enabling Machine Learning Models to Know When They Do Not Know</em>, is now on arXiv (<a href="https://arxiv.org/abs/2510.22261">2510.22261</a>).</span>
-        </li>
-        <li>
-            <span class="date">May 2025</span>
-            <span class="text">Position paper on arXiv: <em>Epistemic Artificial Intelligence is Essential for Machine Learning Models to Truly Know When They Do Not Know</em> (<a href="https://arxiv.org/abs/2505.04950">arXiv:2505.04950</a>).</span>
-        </li>
-        <li>
-            <span class="date">May 2025</span>
-            <span class="text">New preprint with collaborators at TU Delft and Oxford Brookes, <em>Epistemic Wrapping for Uncertainty Quantification</em> (<a href="https://arxiv.org/abs/2505.02277">arXiv:2505.02277</a>).</span>
-        </li>
-        <li>
-            <span class="date">Apr 2025</span>
-            <span class="text">Preprint out: <em>Random-Set Large Language Models</em> (<a href="https://arxiv.org/abs/2504.18085">arXiv:2504.18085</a>), extending random-set neural networks to LLMs.</span>
-        </li>
-        <li>
-            <span class="date">Apr 2025</span>
-            <span class="text"><em>Random-Set Neural Networks</em> presented at <strong>ICLR 2025</strong> in Singapore.</span>
-        </li>
-        <li>
-            <span class="date">Apr 2025</span>
-            <span class="text"><em>A Unified Evaluation Framework for Epistemic Predictions</em> accepted to <strong>AISTATS 2025</strong>.</span>
-        </li>
-        <li>
-            <span class="date">Jan 2025</span>
-            <span class="text"><em>CreINNs: Credal-Set Interval Neural Networks for Uncertainty Estimation in Classification Tasks</em> published in <em>Neural Networks</em> (Elsevier).</span>
-        </li>
-        <li>
-            <span class="date">Dec 2024</span>
-            <span class="text"><em>Credal Deep Ensembles for Uncertainty Quantification</em> presented at <strong>NeurIPS 2024</strong> in Vancouver.</span>
-        </li>
+        <li><span class="date">Jul 2026</span><span class="text">Co-organised the <strong>2nd Workshop on Epistemic Intelligence in Machine Learning</strong> (<a href="https://icml.cc/virtual/2026/workshop/54075">EIML</a>) at <strong>ICML 2026</strong> in Seoul, on learning under unknown unknowns. <a href="#events">Photos</a>.</span></li>
+        <li><span class="date">Jun 2026</span><span class="text"><em>What Intermediate Layers Know: Detecting Jailbreaks from Entropy Dynamics</em> accepted at <strong>ECML PKDD 2026</strong> (<a href="https://arxiv.org/abs/2606.25182">arXiv:2606.25182</a>, <a href="https://github.com/ssophiee/entropy-jailbreak-detection">code</a>).</span></li>
+        <li><span class="date">2026</span><span class="text">Serving as <strong>Area Chair</strong> for <strong>ICML 2026</strong> and <strong>AAAI 2027</strong>.</span></li>
+        <li><span class="date">May 2026</span><span class="text">New preprint: <em>Distributional Energy-Based Models for Uncertainty-Aware Structured LLM Reasoning</em> (<a href="https://arxiv.org/abs/2605.18871">arXiv:2605.18871</a>), scoring reasoning trajectories under calibrated uncertainty.</span></li>
+        <li><span class="date">May 2026</span><span class="text">Two more preprints out: <em>Random-Set Graph Neural Networks</em> (<a href="https://arxiv.org/abs/2605.11987">arXiv:2605.11987</a>) and <em>A Neurosymbolic Approach with Epistemic Deep Learning for Hierarchical Image Classification</em> (<a href="https://arxiv.org/abs/2605.16383">arXiv:2605.16383</a>).</span></li>
+        <li><span class="date">May 2026</span><span class="text">At <strong>AISTATS 2026</strong> in Mai Khao, Thailand. <a href="#events">Photos</a>.</span></li>
+        <li><span class="date">Mar 2026</span><span class="text">Joined <a href="https://www.oxdynamics.com/">Oxford Dynamics</a> at Harwell as a research scientist, leading research on world models and reasoning under uncertainty.</span></li>
+        <li><span class="date">Dec 2025</span><span class="text">Co-organised the <strong>1st EIML workshop</strong> at <strong>EurIPS 2025</strong> in Copenhagen. <a href="#events">Photos</a>.</span></li>
+        <li><span class="date">Dec 2025</span><span class="text">New preprint with Michele Caprio and Fabio Cuzzolin, <em>Credal and Interval Deep Evidential Classifications</em> (<a href="https://arxiv.org/abs/2512.05526">arXiv:2512.05526</a>).</span></li>
+        <li><span class="date">Oct 2025</span><span class="text"><em>Uncertainty-Aware Autonomous Vehicles: Predicting the Road Ahead</em> accepted to <strong>ICRA 2026</strong> (<a href="https://arxiv.org/abs/2510.22680">arXiv:2510.22680</a>).</span></li>
+        <li><span class="date">Oct 2025</span><span class="text">My PhD thesis, <em>Epistemic Deep Learning: Enabling Machine Learning Models to Know When They Do Not Know</em>, is on arXiv (<a href="https://arxiv.org/abs/2510.22261">2510.22261</a>).</span></li>
+        <li><span class="date">2025</span><span class="text">Passed my PhD viva at Oxford Brookes and graduated. <a href="#events">Photos</a>.</span></li>
+        <li><span class="date">May 2025</span><span class="text">Position paper on arXiv: <em>Epistemic Artificial Intelligence is Essential for Machine Learning Models to Truly Know When They Do Not Know</em> (<a href="https://arxiv.org/abs/2505.04950">arXiv:2505.04950</a>).</span></li>
+        <li><span class="date">Apr 2025</span><span class="text">Presented <em>Random-Set Neural Networks</em> at <strong>ICLR 2025</strong> in Singapore. <a href="#events">Photos</a>.</span></li>
+        <li><span class="date">Dec 2024</span><span class="text"><em>Credal Deep Ensembles for Uncertainty Quantification</em> presented at <strong>NeurIPS 2024</strong> in Vancouver. <a href="#events">Photos</a>.</span></li>
     </ul>
 </div>
 
-<div class="container">
+<div class="container" id="publications">
     <div class="ctitle">Publications</div>
-    <p style="color:#777; font-size:14px; margin-top:-6px;">See also <a href="https://scholar.google.co.uk/citations?hl=en&user=RioUSBEAAAAJ">Google Scholar</a> and <a href="https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1">OpenReview</a> for the full list.</p>
-
-    <div class="pub-year">2025</div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://arxiv.org/abs/2512.05526">Credal and Interval Deep Evidential Classifications</a></span>
-        <span class="pub-authors">Michele Caprio, <span class="me">Shireen Kudukkil Manchingal</span>, Fabio Cuzzolin.</span>
-        <span class="pub-venue">arXiv preprint, 2025.</span>
-        <span class="pub-links"><a href="https://arxiv.org/abs/2512.05526">arXiv</a></span>
-    </div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://arxiv.org/abs/2510.22680">Uncertainty-Aware Autonomous Vehicles: Predicting the Road Ahead</a></span>
-        <span class="pub-authors"><span class="me">Shireen Kudukkil Manchingal</span>, Armand Amaritei, Mihir Gohad, Maryam Sultana, Julian F. P. Kooij, Fabio Cuzzolin, Andrew Bradley.</span>
-        <span class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA), 2026.</span>
-        <span class="pub-links"><a href="https://arxiv.org/abs/2510.22680">arXiv</a></span>
-    </div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://arxiv.org/abs/2510.22261">Epistemic Deep Learning: Enabling Machine Learning Models to Know When They Do Not Know</a></span>
-        <span class="pub-authors"><span class="me">Shireen Kudukkil Manchingal</span>.</span>
-        <span class="pub-venue">PhD thesis, Oxford Brookes University, 2025.</span>
-        <span class="pub-links"><a href="https://arxiv.org/abs/2510.22261">arXiv</a></span>
-    </div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://arxiv.org/abs/2505.04950">Epistemic Artificial Intelligence is Essential for Machine Learning Models to Truly Know When They Do Not Know</a></span>
-        <span class="pub-authors"><span class="me">Shireen Kudukkil Manchingal</span>, Andrew Bradley, Julian F. P. Kooij, Keivan Shariatmadar, Neil Yorke-Smith, Fabio Cuzzolin.</span>
-        <span class="pub-venue">Position paper, arXiv preprint, 2025.</span>
-        <span class="pub-links"><a href="https://arxiv.org/abs/2505.04950">arXiv</a></span>
-    </div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://arxiv.org/abs/2505.02277">Epistemic Wrapping for Uncertainty Quantification</a></span>
-        <span class="pub-authors">Maryam Sultana, Neil Yorke-Smith, Kaizheng Wang, <span class="me">Shireen Kudukkil Manchingal</span>, Muhammad Mubashar, Fabio Cuzzolin.</span>
-        <span class="pub-venue">arXiv preprint, 2025.</span>
-        <span class="pub-links"><a href="https://arxiv.org/abs/2505.02277">arXiv</a></span>
-    </div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://arxiv.org/abs/2504.18085">Random-Set Large Language Models</a></span>
-        <span class="pub-authors">Muhammad Mubashar, <span class="me">Shireen Kudukkil Manchingal</span>, Fabio Cuzzolin.</span>
-        <span class="pub-venue">arXiv preprint, 2025.</span>
-        <span class="pub-links"><a href="https://arxiv.org/pdf/2504.18085">pdf</a> <a href="https://arxiv.org/abs/2504.18085">arXiv</a> <a href="https://github.com/mubashar1030/Random-set-Large-Language-Models">code</a></span>
-    </div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://proceedings.mlr.press/v258/manchingal25a.html">A Unified Evaluation Framework for Epistemic Predictions</a></span>
-        <span class="pub-authors"><span class="me">Shireen Kudukkil Manchingal</span>, Muhammad Mubashar, Kaizheng Wang, Fabio Cuzzolin.</span>
-        <span class="pub-venue">International Conference on Artificial Intelligence and Statistics (AISTATS), 2025.</span>
-        <span class="pub-links"><a href="https://proceedings.mlr.press/v258/manchingal25a/manchingal25a.pdf">pdf</a> <a href="https://proceedings.mlr.press/v258/manchingal25a.html">PMLR</a> <a href="https://github.com/shireenkmanch/Evaluation-Epistemic-Preds">code</a></span>
-    </div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://openreview.net/forum?id=pdjkikvCch">Random-Set Neural Networks</a></span>
-        <span class="pub-authors"><span class="me">Shireen Kudukkil Manchingal</span>, Muhammad Mubashar, Kaizheng Wang, Keivan Shariatmadar, Fabio Cuzzolin.</span>
-        <span class="pub-venue">International Conference on Learning Representations (ICLR), 2025.</span>
-        <span class="pub-links"><a href="https://openreview.net/pdf?id=pdjkikvCch">pdf</a> <a href="https://openreview.net/forum?id=pdjkikvCch">openreview</a> <a href="https://github.com/shireenkmanch/Random-Set-Neural-Networks">code</a></span>
-    </div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://doi.org/10.1016/j.neunet.2025.107198">CreINNs: Credal-Set Interval Neural Networks for Uncertainty Estimation in Classification Tasks</a></span>
-        <span class="pub-authors">Kaizheng Wang, Keivan Shariatmadar, <span class="me">Shireen Kudukkil Manchingal</span>, Fabio Cuzzolin, David Moens, Hans Hallez.</span>
-        <span class="pub-venue">Neural Networks (Elsevier), 2025.</span>
-        <span class="pub-links"><a href="https://doi.org/10.1016/j.neunet.2025.107198">DOI</a> <a href="https://github.com/WangKaizheng/CreINNs">code</a></span>
-    </div>
-
-    <div class="pub-year">2024</div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://papers.nips.cc/paper_files/paper/2024/hash/911fc798523e7d4c2e9587129fcf88fc-Abstract-Conference.html">Credal Deep Ensembles for Uncertainty Quantification</a></span>
-        <span class="pub-authors">Kaizheng Wang, Fabio Cuzzolin, <span class="me">Shireen Kudukkil Manchingal</span>, Keivan Shariatmadar, David Moens, Hans Hallez.</span>
-        <span class="pub-venue">Conference on Neural Information Processing Systems (NeurIPS), 2024.</span>
-        <span class="pub-links"><a href="https://papers.nips.cc/paper_files/paper/2024/file/911fc798523e7d4c2e9587129fcf88fc-Paper-Conference.pdf">pdf</a> <a href="https://papers.nips.cc/paper_files/paper/2024/hash/911fc798523e7d4c2e9587129fcf88fc-Abstract-Conference.html">NeurIPS</a></span>
-    </div>
-
-    <div class="pub-year">2022</div>
-
-    <div class="pub">
-        <span class="pub-title"><a href="https://arxiv.org/abs/2206.07609">Epistemic Deep Learning</a></span>
-        <span class="pub-authors"><span class="me">Shireen Kudukkil Manchingal</span>, Fabio Cuzzolin.</span>
-        <span class="pub-venue">arXiv preprint, 2022.</span>
-        <span class="pub-links"><a href="https://arxiv.org/abs/2206.07609">arXiv</a></span>
-    </div>
+    <p class="sec-note">Full list on <a href="https://scholar.google.com/citations?user=HecEIboAAAAJ">Google Scholar</a> and <a href="https://openreview.net/profile?id=~Shireen_Kudukkil_Manchingal1">OpenReview</a>.</p>
+    <div id="pub-list"></div>
 </div>
+
+<div class="container" id="events">
+    <div class="ctitle">Events &amp; Talks</div>
+    <div class="filters" id="event-filters">
+        <button class="filter is-on" data-kind="all">All</button>
+        <button class="filter" data-kind="organised">Workshops I organised</button>
+        <button class="filter" data-kind="talk">Talks</button>
+        <button class="filter" data-kind="conference">Conferences</button>
+        <button class="filter" data-kind="outreach">Outreach</button>
+    </div>
+    <div class="event-grid" id="event-grid"></div>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Event photos" hidden>
+    <button class="lb-close" id="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous">&#8249;</button>
+    <figure class="lb-figure">
+        <img id="lb-img" alt="">
+        <figcaption id="lb-cap"></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" id="lb-next" aria-label="Next">&#8250;</button>
+</div>
+
+<script src="assets/papers.js"></script>
+<script src="assets/events.js"></script>
+<script>
+/* ---- publications ------------------------------------------------------- */
+(function () {
+    var host = document.getElementById('pub-list');
+    var papers = window.PAPERS || [];
+    if (!host) return;
+
+    function esc(s) {
+        return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+    function authors(list) {
+        return list.map(function (a) {
+            return a.charAt(0) === '*'
+                ? '<span class="me">' + esc(a.slice(1)) + '</span>'
+                : esc(a);
+        }).join(', ') + '.';
+    }
+
+    var year = null;
+    papers.forEach(function (p) {
+        if (p.year !== year) {
+            year = p.year;
+            var y = document.createElement('div');
+            y.className = 'pub-year';
+            y.textContent = year;
+            host.appendChild(y);
+        }
+
+        var links = Object.keys(p.links || {}).map(function (k) {
+            return '<a href="' + esc(p.links[k]) + '">' + esc(k) + '</a>';
+        }).join(' ');
+
+        var el = document.createElement('div');
+        el.className = 'pub';
+        el.innerHTML =
+            '<div class="pub-fig' + (p.fig ? '' : ' is-empty') + '">' +
+                (p.fig ? '<a href="' + esc(Object.values(p.links)[0] || '#') + '">' +
+                         '<img src="' + esc(p.fig) + '" alt="Figure from ' + esc(p.title) + '" loading="lazy"></a>' : '') +
+                '<span class="pub-fig-tag">' + esc(p.tag || '') + '</span>' +
+            '</div>' +
+            '<div class="pub-text">' +
+                '<span class="pub-title"><a href="' + esc(Object.values(p.links)[0] || '#') + '">' + esc(p.title) + '</a></span>' +
+                '<span class="pub-authors">' + authors(p.authors) + '</span>' +
+                '<span class="pub-venue">' + esc(p.venue) + '</span>' +
+                (p.figCaption ? '<span class="pub-figcap">' + esc(p.figCaption) + '</span>' : '') +
+                '<span class="pub-links">' + links + '</span>' +
+            '</div>';
+
+        var img = el.querySelector('.pub-fig img');
+        if (img) {
+            img.addEventListener('error', function () {
+                el.querySelector('.pub-fig').classList.add('is-empty');
+                img.parentNode.remove();
+            });
+        }
+        host.appendChild(el);
+    });
+})();
+
+/* ---- events ------------------------------------------------------------- */
+(function () {
+    var grid = document.getElementById('event-grid');
+    var events = window.EVENTS || [];
+
+    function esc(s) {
+        return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    // Build the photo list for an event: cover first, then the rest.
+    function photosOf(ev) {
+        if (!ev.dir) return [];
+        var base = 'assets/img/events/' + ev.dir + '/';
+        var list = [base + (ev.cover || 'cover.jpg')];
+        (ev.photos || []).forEach(function (p) { list.push(base + p); });
+        return list;
+    }
+
+    var cards = events.map(function (ev, i) {
+        var shots = photosOf(ev);
+        var meta = [ev.venue, ev.location].filter(Boolean).join(' &middot; ');
+        var thumb = shots.length
+            ? '<img src="' + esc(shots[0]) + '" alt="' + esc(ev.title) + '" loading="lazy">'
+            : '';
+        var count = shots.length > 1 ? '<span class="shot-count">' + shots.length + ' photos</span>' : '';
+
+        var el = document.createElement('article');
+        el.className = 'event-card';
+        el.setAttribute('data-kind', ev.kind || 'conference');
+        el.innerHTML =
+            '<div class="event-thumb" data-idx="' + i + '">' +
+                thumb +
+                '<span class="event-fallback">' + esc(ev.venue || ev.date) + '</span>' +
+                count +
+            '</div>' +
+            '<div class="event-body">' +
+                '<span class="event-date">' + esc(ev.date) + (ev.role ? ' &middot; ' + esc(ev.role) : '') + '</span>' +
+                '<h3 class="event-title">' +
+                    (ev.link ? '<a href="' + esc(ev.link) + '">' + esc(ev.title) + '</a>' : esc(ev.title)) +
+                '</h3>' +
+                (ev.subtitle ? '<span class="event-sub">' + esc(ev.subtitle) + '</span>' : '') +
+                (meta ? '<span class="event-meta">' + meta + '</span>' : '') +
+            '</div>';
+
+        // A cover that 404s (not added yet) falls back to the typographic tile.
+        var img = el.querySelector('.event-thumb img');
+        if (img) {
+            img.addEventListener('error', function () {
+                img.remove();
+                el.querySelector('.event-thumb').classList.add('is-empty');
+                var c = el.querySelector('.shot-count');
+                if (c) c.remove();
+            });
+        } else {
+            el.querySelector('.event-thumb').classList.add('is-empty');
+        }
+        grid.appendChild(el);
+        return { el: el, shots: shots, ev: ev };
+    });
+
+    // ---- filters ----
+    document.getElementById('event-filters').addEventListener('click', function (e) {
+        var btn = e.target.closest('.filter');
+        if (!btn) return;
+        var kind = btn.getAttribute('data-kind');
+        this.querySelectorAll('.filter').forEach(function (b) { b.classList.remove('is-on'); });
+        btn.classList.add('is-on');
+        cards.forEach(function (c) {
+            var show = kind === 'all' || c.el.getAttribute('data-kind') === kind;
+            c.el.style.display = show ? '' : 'none';
+        });
+    });
+
+    // ---- lightbox ----
+    var box = document.getElementById('lightbox');
+    var lbImg = document.getElementById('lb-img');
+    var lbCap = document.getElementById('lb-cap');
+    var shots = [], at = 0, label = '';
+
+    function show(n) {
+        at = (n + shots.length) % shots.length;
+        lbImg.src = shots[at];
+        lbCap.textContent = label + (shots.length > 1 ? '  (' + (at + 1) + '/' + shots.length + ')' : '');
+    }
+    function open(c) {
+        if (!c.shots.length || c.el.querySelector('.event-thumb').classList.contains('is-empty')) return;
+        shots = c.shots;
+        label = c.ev.title;
+        box.hidden = false;
+        document.body.style.overflow = 'hidden';
+        show(0);
+    }
+    function close() {
+        box.hidden = true;
+        document.body.style.overflow = '';
+        lbImg.removeAttribute('src');
+    }
+
+    cards.forEach(function (c) {
+        c.el.querySelector('.event-thumb').addEventListener('click', function () { open(c); });
+    });
+    document.getElementById('lb-close').addEventListener('click', close);
+    document.getElementById('lb-prev').addEventListener('click', function () { show(at - 1); });
+    document.getElementById('lb-next').addEventListener('click', function () { show(at + 1); });
+    box.addEventListener('click', function (e) { if (e.target === box) close(); });
+    document.addEventListener('keydown', function (e) {
+        if (box.hidden) return;
+        if (e.key === 'Escape') close();
+        if (e.key === 'ArrowLeft') show(at - 1);
+        if (e.key === 'ArrowRight') show(at + 1);
+    });
+})();
+</script>
 
 <footer>
     <div class="container">

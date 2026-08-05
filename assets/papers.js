@@ -67,6 +67,7 @@ window.PAPERS = [
         authors: ["Michele Caprio", "*Shireen Kudukkil Manchingal", "Fabio Cuzzolin"],
         venue: "arXiv preprint, 2025",
         tag: "arXiv",
+        fig: "assets/img/papers/credal-interval.png",
         links: { arXiv: "https://arxiv.org/abs/2512.05526" }
     },
     {
@@ -75,6 +76,7 @@ window.PAPERS = [
         authors: ["*Shireen Kudukkil Manchingal"],
         venue: "PhD thesis, Oxford Brookes University, 2025",
         tag: "Thesis",
+        fig: "assets/img/papers/thesis.png",
         links: { arXiv: "https://arxiv.org/abs/2510.22261" }
     },
     {

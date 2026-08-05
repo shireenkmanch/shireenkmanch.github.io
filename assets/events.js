@@ -82,7 +82,7 @@ window.EVENTS = [
         photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg", "09.jpg"]
     },
     {
-        title: "AISTATS 2026",
+        title: "AISTATS 2026, Mai Khao",
         role: "Attendee",
         kind: "conference",
         venue: "AISTATS 2026",
@@ -155,8 +155,8 @@ window.EVENTS = [
         photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg"]
     },
     {
-        title: "Random-Set Neural Networks",
-        subtitle: "Poster presentation",
+        title: "ICLR 2025, Singapore",
+        subtitle: "Presented Random-Set Neural Networks",
         role: "Author",
         kind: "conference",
         venue: "ICLR 2025",
@@ -177,7 +177,7 @@ window.EVENTS = [
         photos: []
     },
     {
-        title: "Epistemic AI consortium meeting",
+        title: "Epistemic AI consortium meeting, KU Leuven",
         role: "Consortium member",
         kind: "conference",
         venue: "KU Leuven",
@@ -187,8 +187,8 @@ window.EVENTS = [
         photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"]
     },
     {
-        title: "Credal Deep Ensembles for Uncertainty Quantification",
-        subtitle: "Poster presentation",
+        title: "NeurIPS 2024, Vancouver",
+        subtitle: "Credal Deep Ensembles for Uncertainty Quantification",
         role: "Co-author",
         kind: "conference",
         venue: "NeurIPS 2024",
@@ -199,7 +199,7 @@ window.EVENTS = [
         photos: ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"]
     },
     {
-        title: "Epistemic AI consortium meeting",
+        title: "Epistemic AI consortium meeting, TU Delft",
         role: "Consortium member",
         kind: "conference",
         venue: "TU Delft",
@@ -250,7 +250,7 @@ window.EVENTS = [
         photos: []
     },
     {
-        title: "10th Summer School on Imprecise Probabilities",
+        title: "10th Summer School on Imprecise Probabilities, Bristol",
         role: "Participant",
         kind: "conference",
         venue: "University of Bristol",

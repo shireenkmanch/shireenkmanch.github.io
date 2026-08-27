@@ -523,7 +523,7 @@ html { scroll-behavior: smooth; }
 #uncertainty {
     position: relative;
     width: 100%;
-    height: clamp(64px, 8vh, 96px);
+    height: clamp(105px, 14vh, 150px);
     background: #ffffff;
     overflow: hidden;
     border-bottom: 1px dotted #d8d3c4;
@@ -544,7 +544,7 @@ html { scroll-behavior: smooth; }
 /* explanatory text, top left, aligned to the page column */
 #uncertainty .uv-caption {
     position: absolute;
-    top: 7px;
+    top: 11px;
     left: 28px;
     pointer-events: none;
 }
@@ -575,7 +575,7 @@ html { scroll-behavior: smooth; }
 /* the live statistic, bottom right, clear of the caption */
 #uncertainty .uv-meter {
     position: absolute;
-    bottom: 6px;
+    bottom: 9px;
     right: 28px;
     text-align: right;
     pointer-events: none;
@@ -583,7 +583,7 @@ html { scroll-behavior: smooth; }
 #uncertainty .uv-meter b {
     display: block;
     font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
     letter-spacing: 0;
     line-height: 1;
@@ -600,7 +600,7 @@ html { scroll-behavior: smooth; }
     color: #a8a8a8;
 }
 @media (max-width: 700px) {
-    #uncertainty { height: 64px; }
+    #uncertainty { height: 95px; }
     #uncertainty .uv-caption { left: 16px; }
     #uncertainty .uv-caption h2 { font-size: 11px; max-width: 30ch; }
     #uncertainty .uv-meter { right: 16px; }

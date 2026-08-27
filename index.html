@@ -69,6 +69,13 @@
 
 <span id="top"></span>
 
+<section id="uncertainty" aria-label="One predicted path, and the futures the model cannot rule out">
+    <canvas id="uncertainty-canvas"></canvas>
+    <div class="uv-vignette"></div>
+    <div class="uv-meter"><b id="uv-value">0%</b><span id="uv-label">of futures leave the lane</span></div>
+    <div class="uv-caption" id="uv-caption"><h2 id="uv-head"></h2><p id="uv-sub"></p></div>
+</section>
+
 <div id="dhead" class="container">
     <div class="row">
         <div id="dpic">
@@ -93,6 +100,7 @@
 <hr>
 
 <div class="container bio" id="about">
+    <div class="bio-main">
     <p>I am a machine learning researcher working on <strong>epistemic uncertainty in modern AI systems</strong>: models that quantify what they do not know and act accordingly.</p>
 
     <p>I lead research at <a href="https://www.oxdynamics.com/">Oxford Dynamics</a> on <strong>reasoning in foundation models</strong> and <strong>decision-making under uncertainty</strong>. The work targets mission-critical, high-complexity environments, including defence, autonomy, and safety-critical decisioning, where models cannot afford to be confidently wrong, and where knowing when to defer, abstain, or escalate is as important as producing an answer.</p>
@@ -104,6 +112,30 @@
     <p>Outside research, I paint.</p>
 
     <p><strong>Contact:</strong> <a href="mailto:shireen.manchingal@oxdynamics.com">shireen.manchingal@oxdynamics.com</a>.</p>
+    </div>
+
+    <aside class="bio-rail">
+        <div class="rail-item">
+            <span class="rail-k">PhD thesis</span>
+            <p class="rail-t"><a href="https://arxiv.org/abs/2510.22261">Epistemic Deep Learning: Enabling Machine Learning Models to Know When They Do Not Know</a></p>
+            <p class="rail-m">2025 &middot; arXiv:2510.22261</p>
+            <p class="rail-m rail-m2"><a href="https://cordis.europa.eu/project/id/964505">European Union Horizon 2020 Future Emerging Technologies Epistemic AI</a></p>
+        </div>
+        <div class="rail-item">
+            <span class="rail-k">Workshops organised</span>
+            <p class="rail-t">Epistemic Intelligence in Machine Learning <span class="rail-badge">EIML</span></p>
+            <p class="rail-m"><a href="https://icml.cc/virtual/2026/workshop/54075">2nd edition, ICML 2026</a>, Seoul<br><a href="https://sites.google.com/view/eiml-eurips2025/home">1st edition, EurIPS 2025</a>, Copenhagen</p>
+        </div>
+        <div class="rail-item">
+            <span class="rail-k">Programme service</span>
+            <p class="rail-t">Area Chair</p>
+            <p class="rail-m"><a href="https://icml.cc/">ICML 2026</a> &middot; <a href="https://aaai.org/">AAAI 2027</a></p>
+            <p class="rail-t rail-t2">Reviewer</p>
+            <p class="rail-m">NeurIPS &middot; ICML &middot; ICLR &middot; AAAI &middot; CVPR &middot; ICCV &middot; ECCV</p>
+            <p class="rail-m rail-m2">IEEE Transactions on Fuzzy Systems</p>
+        </div>
+    </aside>
+
 </div>
 
 <div class="container" id="publications">
@@ -165,6 +197,8 @@
     <button class="lb-nav lb-next" id="lb-next" aria-label="Next">&#8250;</button>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="assets/uncertainty.js" defer></script>
 <script src="assets/papers.js"></script>
 <script src="assets/events.js"></script>
 <script>

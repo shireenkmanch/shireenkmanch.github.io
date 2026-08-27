@@ -523,7 +523,7 @@ html { scroll-behavior: smooth; }
 #uncertainty {
     position: relative;
     width: 100%;
-    height: clamp(105px, 14vh, 150px);
+    height: clamp(125px, 17vh, 185px);
     background: #ffffff;
     overflow: hidden;
     border-bottom: 1px dotted #d8d3c4;
@@ -600,7 +600,7 @@ html { scroll-behavior: smooth; }
     color: #a8a8a8;
 }
 @media (max-width: 700px) {
-    #uncertainty { height: 95px; }
+    #uncertainty { height: 115px; }
     #uncertainty .uv-caption { left: 16px; }
     #uncertainty .uv-caption h2 { font-size: 11px; max-width: 30ch; }
     #uncertainty .uv-meter { right: 16px; }

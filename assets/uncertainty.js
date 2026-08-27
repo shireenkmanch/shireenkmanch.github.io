@@ -25,8 +25,9 @@
         renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
         renderer.setSize(r.width, r.height, false);
         cam.aspect = r.width / Math.max(1, r.height);
-        // a short, wide band crops vertically, so open the lens as it widens
-        cam.fov = cam.aspect > 2.4 ? 52 : (cam.aspect > 1.8 ? 45 : 38);
+        // Vertical FOV alone sets how big things look; a wider band already shows
+        // more sideways. Opening the lens here only shrank everything, so hold it.
+        cam.fov = 40;
         cam.updateProjectionMatrix();
     }
     resize();
@@ -56,7 +57,7 @@
         }
         var ln = new T.Line(
             new T.BufferGeometry().setFromPoints(pts),
-            new T.LineDashedMaterial({ color: 0x9a9a96, dashSize: 1.4, gapSize: 1.1, transparent: true, opacity: 0.85 })
+            new T.LineDashedMaterial({ color: 0x9a9a96, dashSize: 1.4, gapSize: 1.1, transparent: true, opacity: 1 })
         );
         ln.computeLineDistances();
         return ln;
@@ -91,8 +92,8 @@
     geo.setAttribute('position', new T.BufferAttribute(pos, 3));
     geo.setAttribute('color', new T.BufferAttribute(col, 3));
     var mat = new T.PointsMaterial({
-        size: 0.30, map: dotTex(), vertexColors: true, transparent: true,
-        opacity: 0.42, depthWrite: false, sizeAttenuation: true
+        size: 0.46, map: dotTex(), vertexColors: true, transparent: true,
+        opacity: 0.55, depthWrite: false, sizeAttenuation: true
     });
     scene.add(new T.Points(geo, mat));
 
@@ -100,9 +101,9 @@
     for (var k2 = 0; k2 <= 240; k2++) lp.push(path(k2 / 240));
     scene.add(new T.Line(
         new T.BufferGeometry().setFromPoints(lp),
-        new T.LineBasicMaterial({ color: 0x1f2421, transparent: true, opacity: 0.88 })
+        new T.LineBasicMaterial({ color: 0x1f2421, transparent: true, opacity: 1 })
     ));
-    var head = new T.Mesh(new T.SphereGeometry(0.40, 20, 20), new T.MeshBasicMaterial({ color: 0x1f2421 }));
+    var head = new T.Mesh(new T.SphereGeometry(0.55, 20, 20), new T.MeshBasicMaterial({ color: 0x1f2421 }));
     head.position.copy(path(0.015));
     scene.add(head);
 
@@ -166,7 +167,7 @@
         }
         geo.attributes.position.needsUpdate = true;
         geo.attributes.color.needsUpdate = true;
-        mat.opacity = 0.15 + 0.30 * Math.min(1, collapse * 1.6);
+        mat.opacity = 0.24 + 0.38 * Math.min(1, collapse * 1.6);
 
         el.v.textContent = (nFar ? (outFar / nFar * 100) : 0).toFixed(0) + '%';
         el.l.textContent = 'of futures leave the lane';

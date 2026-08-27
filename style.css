@@ -523,7 +523,7 @@ html { scroll-behavior: smooth; }
 #uncertainty {
     position: relative;
     width: 100%;
-    height: clamp(200px, 32vh, 320px);
+    height: clamp(220px, 38vh, 420px);
     background: #ffffff;
     overflow: hidden;
     border-bottom: 1px dotted #d8d3c4;
@@ -539,7 +539,7 @@ html { scroll-behavior: smooth; }
     position: absolute;
     inset: 0;
     pointer-events: none;
-    background: radial-gradient(125% 92% at 50% 44%, rgba(255,255,255,0) 50%, rgba(255,255,255,.95) 100%);
+    background: radial-gradient(150% 130% at 50% 46%, rgba(255,255,255,0) 62%, rgba(255,255,255,.92) 100%);
 }
 /* explanatory text, top left, aligned to the page column */
 #uncertainty .uv-caption {

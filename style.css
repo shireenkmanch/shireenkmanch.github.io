@@ -69,9 +69,15 @@ h2.tagline {
     color: #6b46c1;
     text-decoration: none;
 }
-.links .or-icon svg {
-    vertical-align: middle;
-    margin-bottom: 1px;
+.links .or-mark {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    vertical-align: -2px;
+    border-radius: 3px;
+    background-color: currentColor;
+    -webkit-mask: url(assets/img/icons/openreview-mask.png) center / contain no-repeat;
+    mask: url(assets/img/icons/openreview-mask.png) center / contain no-repeat;
 }
 @media (max-width: 700px) {
     #dhead .row {

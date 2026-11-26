@@ -38,10 +38,10 @@ window.PAPERS = [
         year: 2026,
         title: "Distributional Energy-Based Models for Uncertainty-Aware Structured LLM Reasoning",
         authors: ["*Shireen Kudukkil Manchingal", "Abhey Kalia", "Fernanda Gonçalves", "Shebin Rawther"],
-        venue: "arXiv preprint, 2026",
-        tag: "arXiv",
+        venue: "ICML 2026 Workshop on Statistical Frameworks for Uncertainty in Agentic Systems",
+        tag: "ICML-W 26",
         fig: "assets/img/papers/distributional-ebm.png",
-        links: { arXiv: "https://arxiv.org/abs/2605.18871" }
+        links: { arXiv: "https://arxiv.org/abs/2605.18871", openreview: "https://openreview.net/forum?id=CVNJcOXeDh" }
     },
     {
         year: 2026,

@@ -21,7 +21,7 @@ window.PAPERS = [
         year: 2026,
         title: "Random-Set Graph Neural Networks",
         authors: ["Tommy Woodley", "*Shireen Kudukkil Manchingal", "Matteo Tolloso", "Davide Bacciu", "Fabio Cuzzolin"],
-        venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026",
+        venue: "Conference on Neural Information Processing Systems (NeurIPS), 2026",
         tag: "NeurIPS 26",
         fig: "assets/img/papers/random-set-gnn.png",
         links: { arXiv: "https://arxiv.org/abs/2605.11987" }

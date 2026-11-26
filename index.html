@@ -50,7 +50,7 @@
       ]
     }
     </script>
-    <link rel="stylesheet" type="text/css" href="style.css?v=6">
+    <link rel="stylesheet" type="text/css" href="style.css?v=7">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
     <link rel="icon" href="assets/img/prof_pic.jpg">
@@ -205,8 +205,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
 <script src="assets/uncertainty.js?v=6" defer></script>
-<script src="assets/papers.js?v=20261126b"></script>
-<script src="assets/events.js?v=20261126b"></script>
+<script src="assets/papers.js?v=20261126c"></script>
+<script src="assets/events.js?v=20261126c"></script>
 <script>
 /* "Latest" under the bio: copies the newest items from the News list, so News stays the single source. */
 (function () {
@@ -221,7 +221,13 @@
 /* ---- publications ------------------------------------------------------- */
 (function () {
     var host = document.getElementById('pub-list');
-    var papers = window.PAPERS || [];
+    var papers = (window.PAPERS || []).map(function (p, i) { return { p: p, i: i }; });
+    /* within each year, published papers first and arXiv preprints last; otherwise keep the file order */
+    function isPreprint(p) { return /arXiv preprint/i.test(p.venue || ''); }
+    papers.sort(function (a, b) {
+        return (b.p.year - a.p.year) || (isPreprint(a.p) - isPreprint(b.p)) || (a.i - b.i);
+    });
+    papers = papers.map(function (x) { return x.p; });
     if (!host) return;
 
     function esc(s) {

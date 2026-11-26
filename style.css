@@ -682,14 +682,33 @@ html { scroll-behavior: smooth; }
 
 /* Latest news under the bio */
 .latest {
-    margin-top: 22px;
-    padding-top: 14px;
-    border-top: 1px dotted #d8d3c4;
+    margin-top: 26px;
+    padding: 14px 18px 12px;
+    background: #faf8fd;
+    border: 1px solid #e6e0f2;
+    border-left: 3px solid #b9a6e3;
+    border-radius: 6px;
 }
-.latest .news .text { font-size: 14.5px; }
+.latest .rail-k { color: #6b46c1; margin-bottom: 4px; }
+.latest .news li {
+    grid-template-columns: 74px 1fr auto;
+    gap: 12px;
+    padding: 9px 0;
+    align-items: center;
+    border-bottom-color: #e6e0f2;
+}
+.latest .news li:last-child { border-bottom: none; }
+.latest .news .text { font-size: 14px; line-height: 1.5; }
+.latest .news .date { font-size: 11.5px; }
+.latest .news-thumb { margin-left: 4px; }
+.latest .news-thumb img { width: 64px; height: 44px; }
 .latest-more {
     display: inline-block;
-    margin-top: 4px;
+    margin-top: 6px;
     font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
-    font-size: 11.5px;
+    font-size: 11px;
+}
+@media (max-width: 620px) {
+    .latest { padding: 12px 14px 10px; }
+    .latest .news li { grid-template-columns: 64px 1fr; }
 }

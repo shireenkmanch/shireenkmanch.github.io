@@ -19,6 +19,17 @@
 
 window.EVENTS = [
     {
+        title: "Women in AI Security Workshop 2026",
+        subtitle: "When AI models should say \u201cI don\u2019t know\u201d: calibrated uncertainty for frontier AI in high-stakes decision loops",
+        role: "Spotlight speaker",
+        kind: "talk",
+        venue: "The Alan Turing Institute, at The Royal Institution",
+        location: "London, UK",
+        date: "Nov 2026",
+        dir: "2026-11-wais-turing-royal-institution",
+        photos: ["01.jpg", "02.jpg"]
+    },
+    {
         title: "Royal Academy of Engineering event",
         role: "Attendee",
         kind: "talk",

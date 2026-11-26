@@ -19,6 +19,15 @@
 window.PAPERS = [
     {
         year: 2026,
+        title: "Random-Set Graph Neural Networks",
+        authors: ["Tommy Woodley", "*Shireen Kudukkil Manchingal", "Matteo Tolloso", "Davide Bacciu", "Fabio Cuzzolin"],
+        venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026",
+        tag: "NeurIPS 26",
+        fig: "assets/img/papers/random-set-gnn.png",
+        links: { arXiv: "https://arxiv.org/abs/2605.11987" }
+    },
+    {
+        year: 2026,
         title: "Distributional Energy-Based Models for Uncertainty-Aware Structured LLM Reasoning",
         authors: ["*Shireen Kudukkil Manchingal", "Abhey Kalia", "Tiago Gonçalves", "Sabeel Rawther"],
         venue: "arXiv preprint, 2026",
@@ -43,15 +52,6 @@ window.PAPERS = [
         tag: "ECML 26",
         fig: "assets/img/papers/jailbreak-entropy.png",
         links: { arXiv: "https://arxiv.org/abs/2606.25182", code: "https://github.com/ssophiee/entropy-jailbreak-detection" }
-    },
-    {
-        year: 2026,
-        title: "Random-Set Graph Neural Networks",
-        authors: ["Tommy Woodley", "*Shireen Kudukkil Manchingal", "Matteo Tolloso", "Davide Bacciu", "Fabio Cuzzolin"],
-        venue: "arXiv preprint, 2026",
-        tag: "arXiv",
-        fig: "assets/img/papers/random-set-gnn.png",
-        links: { arXiv: "https://arxiv.org/abs/2605.11987" }
     },
     {
         year: 2026,

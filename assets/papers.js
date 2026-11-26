@@ -29,7 +29,7 @@ window.PAPERS = [
     {
         year: 2026,
         title: "Distributional Energy-Based Models for Uncertainty-Aware Structured LLM Reasoning",
-        authors: ["*Shireen Kudukkil Manchingal", "Abhey Kalia", "Tiago Gonçalves", "Sabeel Rawther"],
+        authors: ["*Shireen Kudukkil Manchingal", "Abhey Kalia", "Fernanda Gonçalves", "Shebin Rawther"],
         venue: "arXiv preprint, 2026",
         tag: "arXiv",
         fig: "assets/img/papers/distributional-ebm.png",

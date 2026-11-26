@@ -113,6 +113,12 @@
     <p>Outside research, I paint.</p>
 
     <p><strong>Contact:</strong> <a href="mailto:shireen.manchingal@oxdynamics.com">shireen.manchingal@oxdynamics.com</a>.</p>
+
+    <div class="latest" id="latest">
+        <span class="rail-k">Latest</span>
+        <ul class="news"></ul>
+        <a class="latest-more" href="#news">All news &rarr;</a>
+    </div>
     </div>
 
     <aside class="bio-rail">
@@ -199,8 +205,18 @@
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
 <script src="assets/uncertainty.js?v=6" defer></script>
-<script src="assets/papers.js"></script>
-<script src="assets/events.js"></script>
+<script src="assets/papers.js?v=20261126b"></script>
+<script src="assets/events.js?v=20261126b"></script>
+<script>
+/* "Latest" under the bio: copies the newest items from the News list, so News stays the single source. */
+(function () {
+    var N = 2;
+    var src = document.querySelectorAll('#news ul.news > li');
+    var dst = document.querySelector('#latest ul.news');
+    if (!src.length || !dst) { var l = document.getElementById('latest'); if (l) l.style.display = 'none'; return; }
+    for (var i = 0; i < Math.min(N, src.length); i++) dst.appendChild(src[i].cloneNode(true));
+})();
+</script>
 <script>
 /* ---- publications ------------------------------------------------------- */
 (function () {

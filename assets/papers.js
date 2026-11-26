@@ -28,6 +28,14 @@ window.PAPERS = [
     },
     {
         year: 2026,
+        title: "Credal Large Language Models for Semantic Commitment under Uncertainty",
+        authors: ["*Shireen Kudukkil Manchingal", "Sofiia Nikolenko", "Fabio Cuzzolin"],
+        venue: "arXiv preprint, 2026",
+        tag: "arXiv",
+        links: { arXiv: "https://arxiv.org/abs/2608.23244" }
+    },
+    {
+        year: 2026,
         title: "Distributional Energy-Based Models for Uncertainty-Aware Structured LLM Reasoning",
         authors: ["*Shireen Kudukkil Manchingal", "Abhey Kalia", "Fernanda Gonçalves", "Shebin Rawther"],
         venue: "arXiv preprint, 2026",

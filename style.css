@@ -711,3 +711,20 @@ html { scroll-behavior: smooth; }
     .latest { padding: 8px 12px 6px; }
     .latest .news li { grid-template-columns: 62px 1fr; }
 }
+
+/* About: section headings inside the bio */
+.bio-h {
+    margin: 28px 0 10px;
+    font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #6b46c1;
+}
+.bio-sh {
+    margin: 16px 0 4px;
+    font-size: 15.5px;
+    font-weight: 600;
+    color: #1f2421;
+}
